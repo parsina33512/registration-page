@@ -21,8 +21,9 @@
                 <label for="new-password">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" minlength="8" required /></label>
             </fieldset>
               <fieldset>
-                <label><input type="radio" name="account-type" /> Personal</label>
-                <label><input type="radio" name="account-type" /> Business</label>
+                <legend>Account type (required)</legend>
+                <label for="personal-account"><input type="radio" name="account-type" id="personal-account" checked /> Personal</label>
+                <label for="business-account"><input type="radio" name="account-type" id="business-account" /> Business</label>
               </fieldset>
                     <fieldset></fieldset> 
                 
