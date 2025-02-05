@@ -23,7 +23,18 @@
             <label>
                 <label>Upload a profile picture: <input type="file" /></label>
                  <label>Input your age (years): <input type="number" min="12"max="140" /></label>
-                <fieldset>
+                 <label>How did you hear about us?<select>
+                    <option>(select one)</option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                </select>
+            </label>
+            <label for="bio">Provide a bio:
+              <textarea id="bio" rows="3" cols="30"></textarea>
+            </label>
+          </fieldset>
                 <legend>Account type (required)</legend>
                 <label for="personal-account"><input type="radio" name="account-type" id="personal-account" checked /> Personal</label>
                 <label for="business-account"><input type="radio" name="account-type" id="business-account" /> Business</label>
